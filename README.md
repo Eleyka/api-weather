@@ -4,7 +4,7 @@
 
 * Aprender el uso del API
 
-![](public/assets/1.png)
+![](public/assets/1.PNG)
 
 
 ## Integrantes:
