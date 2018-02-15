@@ -28,7 +28,9 @@ $(document).ready(function () {
           var uv = data.currently.uvIndex
           console.log(uv)
           var humidity = data.currently.humidity;
-
+          
+          $('.temperature').append(temperature + '°F');
+          
           $('.wind').append(wind);
           $('.humidity').append(humidity);
           $('.uv').append(uv);
