@@ -1,5 +1,3 @@
-$('.button-collapse').sideNav();
-
 $(window).on('scroll', function() {
 if ($(window).scrollTop()) {
 $('nav').addClass('vintage');
@@ -46,20 +44,9 @@ $(document).ready(function () {
           $('.humidity').append(humidity);
           $('.uv').append(uv);
           $('.pressure').append(pressure);
-
-
-
           ;
         }
       });
-
-
     });
   }
-
-
-
-
-
-
 });
