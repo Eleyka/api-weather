@@ -1,3 +1,14 @@
+$('.button-collapse').sideNav();
+
+$(window).on('scroll', function() {
+if ($(window).scrollTop()) {
+$('nav').addClass('vintage');
+} else {
+$('nav').removeClass('vintage');
+}
+});
+
+
 $(document).ready(function () {
 
 

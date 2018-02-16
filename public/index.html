@@ -1,34 +1,44 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Weather Silvia y Eleyne</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
 </head>
+
 <body>
     <header class="masthead">
         <h1>PREDICCIÓN DE LA SEMANA</h1>
-        <div id="site-container">
-           
+        <div id="container">
+<div class="row">
+        <div class="col-sm-3"></div>
+    <div class="col-sm-6">
             <span class="temperature"></span>
-            <div>
-                <p><span  class="wind">Wind:</span></p>
-                <p ><span class="humidity">Humidity:</span></p>
-                <p ><span class="uv">UV Index:</span></p>
-                <p><span class="pressure">Pressure:</span></pp>
+            <div class="data">
+                    <p><span class="wind">Wind:</span></p>
+                    <p><span class="humidity">Humidity:</span></p>
+                    <p><span class="uv">UV Index:</span></p>
+                    <p><span class="pressure">Pressure:</span></p>
             </div>
-        </div>
+    </div>
+</div>
+            
+        
     </header>
     <div class="site-container">
         <ul id="response-container"></ul>
     </div>
 
-    <script
-    src="http://code.jquery.com/jquery-3.3.1.min.js"
-    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
     <script src="js/app.js"></script>
 
 </body>
+
 </html>
